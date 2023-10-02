@@ -8,7 +8,7 @@ module.exports = {
         'sanFranciscoDesktop' : "url('../img/sanFranciscoDesktop.jpg')",
         'yosemite' : "url('../img/yosemite.jpg')",
         'LA' : "url('../img/LA.jpg')",
-        'seattle' : "url('../img/sanFrancisco.jpg')",
+        'seattle' : "url('../img/seattle.jpg')",
         'new_york' : "url('../img/new_york.jpg')",
         'norway' : "url('../img/norway.jpg')",
         'sydney' : "url('../img/sydney.jpg')",
@@ -33,8 +33,14 @@ module.exports = {
           'terciary' : '#61AEC9'
         },
         fontFamily:{
-          Montserrat:['Montserrat', 'sans-serif']
-      }
+          Montserrat:['Montserrat', 'sans-serif'],
+          Kanit:['Kanit']
+      },
+        boxShadowColor:{
+          'primary': '#CC2D4A',
+          'secondary' : '#8FA206',
+          'terciary' : '#61AEC9'
+        }
     },
   },
   plugins: [],
