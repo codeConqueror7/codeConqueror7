@@ -710,6 +710,12 @@ video {
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -738,12 +744,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(20rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(20rem * var(--tw-space-y-reverse));
-}
-
-.space-y-12 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
 .overflow-x-auto {
@@ -1152,26 +1152,6 @@ video {
 @media (min-width: 1024px) {
   .lg\:left-24 {
     left: 6rem;
-  }
-
-  .lg\:top-20 {
-    top: 5rem;
-  }
-
-  .lg\:top-96 {
-    top: 24rem;
-  }
-
-  .lg\:top-7 {
-    top: 1.75rem;
-  }
-
-  .lg\:top-72 {
-    top: 18rem;
-  }
-
-  .lg\:top-5 {
-    top: 1.25rem;
   }
 
   .lg\:top-52 {
