@@ -73,26 +73,36 @@
         <div id="home" class="home">
             <div class="w-full h-3/4">
 
-                <div class="font-Kanit w-96 h-full flex flex-col absolute space-y-96 py-4 items-center left-4 lg:flex-col lg:justify-center lg:items-start lg:left-24 lg:space-y-8 lg:bottom- lg:h-96">    
-                    <input class="outline-none p-3 rounded-full shadow-sm transition-all duration-500 focus-within:shadow-sm focus:ring-2 focus:w-9/12 focus:ease-in-out lg:hidden" type="search" placeholder="San Francisco">
+                
+                <!-- CONTAINER DE MODO NOCHE, EXPLORE MORE, SEARCHMOVIL -->
+                <div class="font-Montserrat w-96 h-96 flex flex-col absolute space-y-12 py-4 items-center left-4 lg:flex-col lg:justify-center lg:items-start lg:left-24 lg:space-y-8 lg:bottom- lg:h-96">
+
+                    <!-- Boton de modo noche -->
+                    <div class="lg:hidden w-full h-10  absolute flex justify-end items-center font-Montserrat">
+                        <button class="w-20 h-10 font-bold text-white bg-primary shadow-md transition-all duration-500 ease-in-out hover:bg-red-900 rounded-full">Night</button>
+                    </div>
+
+                    <!-- CONTAINER DE SEARCH Y EXPLORE MORE MOVIL -->
+                    <div class="flex flex-col space-y-80">
+                        <input class="outline-none p-3 rounded-full shadow-sm transition-all duration-500 focus-within:shadow-sm focus:ring-2 focus:w-9/12 focus:ease-in-out lg:hidden" type="search" placeholder="San Francisco">
+
+                        <button class="bg-white text-lg text-primary font-semibold p-4 rounded-full w-56 shadow-sm  transition-all duration-500 ease-in-out hover:bg-primary hover:text-white  transform hover:-translate-y-3 hover:scale-110 hover:shadow-2xl lg:hidden">
+                            Explore MorePC
+                        </button>
+                    </div>
 
                     <!-- Titulo De Desktop  -->
-                    <p class="font-bold text-xl w-56 lg:text-2xl lg:transition lg:ease-in-out lg:duration-500
+                    <p class="font-Kanit font-bold text-xl w-56 lg:text-2xl lg:transition lg:ease-in-out lg:duration-500
                     lg:hover:text-primary hidden lg:flex">Find More Locations Like This</p>
                         <!-- BOTON EXPLORE  -->
-                    <button class="bg-white text-lg text-primary font-semibold p-4 rounded-full w-56 shadow-sm  transition-all duration-500 ease-in-out hover:bg-primary hover:text-white  transform hover:-translate-y-3 hover:scale-110 hover:shadow-2xl lg:hidden">
-                        Explore More
-                    </button>
+                    
 
                     <button class="bg-white text-lg hidden text-primary font-semibold p-4 rounded-full w-56 shadow-sm  transition-all duration-500 ease-in-out hover:bg-primary hover:text-white  transform hover:-translate-y-3 hover:scale-110 hover:shadow-2xl lg:w-32 lg:h-10 lg:font-medium lg:text-sm lg:flex lg:justify-center lg:items-center">
                         Explore More
                     </button>
                 </div>
                 
-                <!-- Boton de modo noche -->
-                <div class="lg:hidden w-20 h-10 bg-primary p-0 m-0 absolute right-1 mt-5 rounded-full flex justify-center shadow-md transition-all duration-500 ease-in-out hover:bg-red-900  ">
-                    <button class="w-10 h-10 font-bold text-white">Night</button>
-                </div>
+                
                 
                 <!-- Fondo de pantalla -->
                 <div class="lg:h-[36rem] lg:w-full lg:px-8 bg-fixed bg-cover">
